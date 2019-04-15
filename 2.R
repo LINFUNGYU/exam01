@@ -8,3 +8,4 @@ tw20.txt<-read.table("tw20.txt")
 
 ifelse(!require(reshape2),install.packages('reshape2'),library(reshape2))
 tw20.xst<-dcast(tw20.txt,V1~V4)
+
